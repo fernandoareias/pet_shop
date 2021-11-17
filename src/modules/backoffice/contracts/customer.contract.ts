@@ -1,7 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { Validation } from 'src/utils/validation';
+
 import { Customer } from '../models/customer.models';
 import { Contract } from './contract';
+
 
 @Injectable()
 export class CreateCustomerContract implements Contract{

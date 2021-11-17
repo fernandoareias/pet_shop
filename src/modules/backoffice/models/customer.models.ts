@@ -1,7 +1,8 @@
-import { Address } from './address.model';
-import { CreditCard } from './credit-card.model';
-import { Pet } from './pet.models';
-import { User } from './user.model';
+/* eslint-disable prettier/prettier */
+import { Address } from "./address.model";
+import { CreditCard } from "./credit-card.model";
+import { Pet } from "./pet.models";
+import { User } from "./user.model";
 
 export class Customer {
   constructor(
